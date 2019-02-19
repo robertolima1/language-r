@@ -1,0 +1,5 @@
+Ano <- c(1800, 1850, 1900, 1950, 2000)
+Carbono <- c(8, 54, 534, 1630, 6611)
+combustivelfossil<-data.frame(Ano, Carbono)
+plot(Ano ~ Carbono, data=combustivelfossil, pch=16)
+range(combustivelfossil)               
